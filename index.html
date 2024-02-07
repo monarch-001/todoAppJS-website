@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="./images/Aha-Soft-Standard-Portfolio-Inventory.256.png" type="image/x-icon">
+
+        <title>Todo App</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="./styles/property.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/toogled-styles.css">
+        <link rel="stylesheet" href="./styles/query.css">
+
+    </head>
+
+    <body>
+        
+        <div class="top__image_div">
+
+            <img class="background_image" src="./images/bg-desktop-dark.jpg" alt="bg-desktop-dark">
+
+        </div>
+
+        <div class="modal_container none">
+
+            <div class="modal_div flex direction alignment js_modal_div">
+    
+                <h1>Are you sure you want to delete <br>
+                    (<span class="element-to-delete">1 item</span>) ? 
+                </h1>
+    
+                <div class="modal_button_div flex">
+    
+                    <button class="yes_button proceed_button">Yes</button>
+    
+                    <button class="no_button decline_button">No</button>
+    
+                </div>
+    
+            </div>
+            
+        </div>
+
+
+        <main>
+
+            <section class="section position-absolute">
+
+                <div class="main__container flex direction">
+
+                    <div class="first_container flex">
+
+						<h2 class="position-relative">
+                            <span class="word position-absolute">TODO&nbsp;APP</span>
+                            <span class="word position-absolute">TODO&nbsp;LIST</span>
+                            <span class="word position-absolute">TODO&nbsp;CONTENTS</span>
+                            <span class="word position-absolute">TODOS</span>
+                        </h2>
+
+						<img class="theme_img" src="./images/icon-sun.svg" alt="icon-sun">
+
+					</div>
+
+                    <div class="creating__todo__input_div position-relative">
+
+						<input type="text" placeholder="Create a new todo..." class="create_todo_input full-width-height js_create_todo_input">
+
+						<label for="checkbox">
+                            <input type="checkbox" class="checkbox_input js_checkbox_input position-absolute">
+
+						    <span class="checked__div position-absolute"></span>
+                        </label>
+
+					</div>
+
+                    <div class="main__todo_container flex direction">
+
+                        <div class="todo_container_section flex direction"></div>
+
+                        <div class="flex direction alignment" style="gap: 20px;">
+
+							<div class="filtered__container grid alignment text-align">
+                                <div>
+                                    <p class="remaining_items_left number-of-items-left filtered-text-color">0 items left</p>
+                                </div>
+        
+                                <div class="all_filtered_container grid template_column alignment">
+                                    <p class="all_items filtered-text-color light_text">All</p>
+    
+                                    <p class="active_items filtered-text-color">Active</p>
+        
+                                    <p class="completed_items filtered-text-color">Completed</p>
+                                </div>
+                                
+                                <div class="completed_div">
+                                    <p class="clear_completed filtered-text-color">Clear Completed</p>
+                                </div>
+                            </div>
+
+                            <div class="clear-all-div">
+                                <p class="filtered-text-color clear-all-text">Clear all</p>
+                            </div>
+	
+						</div>
+
+                    </div>
+
+                    <div class="text-align instruction_div">
+                        <p>Drag and drop to reorder list</p>
+                    </div>
+                    
+                </div>
+
+            </section>
+
+        </main>
+
+        <script type="module" src="./scripts/script.js"></script>
+
+    </body>
+
+</html>
+
+<!-- editor.linkedEditing -->

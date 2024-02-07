@@ -1,0 +1,5 @@
+@media screen and (max-width: 514px) {
+    .main__container {
+        width: 380px;
+    }
+}

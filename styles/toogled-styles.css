@@ -1,0 +1,40 @@
+body.light .creating__todo__input_div,
+body.light .checkbox_input,
+body.light .main__todo_container {
+    background: var(--light-grayish-blue-hover);
+}
+
+body.light .create_todo_input,
+body.light .todo_container .edit_input {
+    color: var(--very-dark-desaturated-blue);
+}
+
+body.light .todo_container .active-todo-color {
+    color: var(--very-dark-grayish-blue-two);
+}
+
+body.light .todo_container .spacing_bottom {
+    border-bottom: 1px solid var(--dark-grayish-blue);
+}
+
+body.light .modal_div{
+    background: var(--light-grayish-blue);
+}
+
+body.light .modal_div h1{
+    color: var(--very-dark-desaturated-blue);
+}
+
+body.light .all_filtered_container label p:hover,
+body.light .clear_completed:hover {
+    color: var(--dark-grayish-blue);
+}
+
+body.light .all_filtered_container label p:active,
+body.light .clear_completed:active {
+    color: var(--very-dark-grayish-blue-one);
+}
+
+body.light .todo_container .icon_img_div .edit_icon {
+    color: var(--very-dark-desaturated-blue);
+}

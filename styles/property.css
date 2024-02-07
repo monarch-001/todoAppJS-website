@@ -1,0 +1,86 @@
+:root {
+
+    /* Light Theme */
+
+    --dark-grayish-blue: #9394a5;
+    --light-grayish-blue: #d2d3db;
+    --very-light-gray: #fafafa;
+    --very-light-grayish-blue: #e4e5f1;
+    --very-dark-grayish-blue: #484b6a;
+    
+    /* Dark Theme */
+    
+    --very-dark-blue: #161722;
+    --very-dark-desaturated-blue: #25273c;
+    --light-grayish-blue: #cacde8;
+    --light-grayish-blue-hover: #e4e5f1;
+    --very-dark-grayish-blue-one: #4d5066;
+    --very-dark-grayish-blue-two: #393a4c;
+    
+    /* Primary Colors */
+    
+    --black-color: #000;
+    --bright-blue: #3a7bfd;
+    --checked-background-gradient: linear-gradient(to bottom right, #57ddff, #c058f3);
+    --white-color: #fff;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.alignment {
+    align-items: center;
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.full-width-height {
+    width: 100%;
+    height: 100%;
+}
+
+.template_column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.initial {
+    display: initial;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+}
